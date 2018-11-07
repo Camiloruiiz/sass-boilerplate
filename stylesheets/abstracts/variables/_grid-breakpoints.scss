@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all Breakpoints.
+// -----------------------------------------------------------------------------
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$grid-breakpoints:                                   (
+  xs:                                                0,
+  small-mobile:                                      375px,
+  sm:                                                576px,
+  md:                                                768px,
+  lg:                                                992px,
+  xl:                                                1200px,
+  desktop:                                           1480px
+);

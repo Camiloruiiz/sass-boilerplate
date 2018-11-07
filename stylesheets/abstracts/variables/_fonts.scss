@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains all font Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack:  'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack:  'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+/// Lato font family
+/// @type List
+$lato:             'Lato', Arial, sans-serif;
+
+/// Icon font family
+/// @type String
+$icon-family-base: 'e-theme';
+
+/// FONT-RANGE
+/// @type Length
+$font-range:       22.86rem 81rem;

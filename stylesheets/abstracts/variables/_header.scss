@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains all header Sass variables.
+// -----------------------------------------------------------------------------
+
+/// desktop-header-height
+/// @type Length
+$desktop-header-height:     143px;
+
+/// mobile-header-height
+/// @type Length
+$mobile-header-height:      144px;
+
+/// desktop-footer-height
+/// @type Length
+$desktop-footer-height:     50px;
+
+/// hamburger-height
+/// @type Length
+$hamburger-height:          21px ;
+
+/// hamburger-width
+/// @type Length
+$hamburger-width:           30px ;
+
+/// hamburger-line-height
+/// @type Length
+$hamburger-line-height:     3px;
+
+/// hamburger-translateY
+/// @type Length
+$hamburger-translateY:      ($hamburger-height - $hamburger-line-height) / 2;
+
+/// display-burger-menu-up-to
+/// @type Length
+$display-burger-menu-up-to: lg;
